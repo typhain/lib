@@ -12,12 +12,5 @@ print "#"*(i)
 print "\n"
 
 step_hell = step_hell - 1
-
 end
 end
-
-def perform
-puts half_pyramid
-end
-
-perform
