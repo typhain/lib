@@ -1,5 +1,5 @@
 def sign_up
-puts "Définissez un mot de passe"
+puts "retapez votre mot de passe"
 sign_up = gets.chomp
 return sign_up
 end
