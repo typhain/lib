@@ -4,8 +4,8 @@ def ask_first_name
   first_name
 end
 
-def say_hello(first_name, prefix = "Bonjour")
-  puts "#{prefix} #{first_name}"
+def say_hello(first_name)
+  puts "hello #{first_name}"
 end
 
 def perform

@@ -14,3 +14,5 @@ print "\n"
 step_hell = step_hell - 1
 end
 end
+
+puts half_pyramid
