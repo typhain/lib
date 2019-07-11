@@ -10,6 +10,21 @@ def ask_number
   return number
 end
 
+def half_pyramid
+  number = ask_number
+  number.times do |i|
+    puts "#"*(i+1)
+  end
+end
+puts half_pyramid
+
+def full_pyramid
+  number = ask_number
+  number.times do |i|
+    puts " " * (number - (i+1)) +"#" * (i+(i+1))
+  end
+end
+puts full_pyramid
 
 def wtf_pyramid
   number = ask_number
